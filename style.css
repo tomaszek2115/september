@@ -1,0 +1,16 @@
+body {
+  background-color: #352f44;
+  font-family: "Helvetica";
+}
+
+h1 {
+  font-size: 144px;
+  color: #dbd8e3;
+}
+
+.middleCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
