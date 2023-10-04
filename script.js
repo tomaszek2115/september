@@ -1,5 +1,5 @@
+const h1Element = document.getElementsByTagName("h1")[0];
 function fadeFun() {
-  const h1Element = document.getElementsByTagName("h1")[0];
   if(h1Element.classList.contains("fade-in")){
     h1Element.classList.remove("fade-in")
   }
@@ -7,4 +7,4 @@ function fadeFun() {
   h1Element.classList.add("fade-in");
 }
 
-document.addEventListener("DOMContentLoaded", fadeFun);
+window.onload=fadeFun
