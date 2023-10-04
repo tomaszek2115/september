@@ -1,10 +1,8 @@
-// window.onload = () => {
-//   var h1Element = document.querySelector(".fade-in");
-//   console.log(h1Element);
-//   h1Element.style.opacity = 1;
-// };
 function fadeFun() {
   const h1Element = document.getElementsByTagName("h1")[0];
+  if(h1Element.classList.contains("fade-in")){
+    h1Element.classList.remove("fade-in")
+  }
   console.log(h1Element);
   h1Element.classList.add("fade-in");
 }
